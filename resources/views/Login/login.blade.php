@@ -35,8 +35,8 @@
       <label for="floatingPassword">Password</label>
     </div>
     <button class="btn btn-primary w-100 py-2 mb-4" type="submit">Sign in</button>
-    <p class="text-white">dont have account yet?<a href="/register" class="text-decoration-none"> click here.</a></p>
-    <p class="mt-3 mb-3 text-white">&copy; Agung 2024</p>
+    <p class="text-white">Belum mempunyai akun?<a href="/register" class="text-decoration-none"> klik disini.</a></p>
+    <p class="mt-3 mb-3 text-white">&copy; Arfanda Agung 2024</p>
   </form>
   
 </main>

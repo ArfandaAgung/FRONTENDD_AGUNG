@@ -1,7 +1,7 @@
 @extends('Template.Main')
 
 @section('container')
-    <h1 class="text-center mb-4 fw-bold" style="color: rgb(85, 73, 57)">All Photos</h1>
+    <h1 class="text-center mb-4 fw-bold" style="color: rgb(85, 73, 57)">Semua Photos</h1>
 
     @if (session()->has('created'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -32,6 +32,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ $photo->judulFoto }}</h5>
                         <p class="card-text">{{ $photo->deskripsiFoto }}</p>
+                        <p class="card-text">{{ $photo->tglUnggah }}</p>
                         <a href="{{ route('photos.edit', $photo->id) }}" class="btn btn-warning">Edit</a>
 
                         <form action="{{ route('photos.destroy', $photo->id) }}" method="POST" class="d-inline">

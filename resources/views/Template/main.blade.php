@@ -14,7 +14,7 @@
 
 <body>
 
-    @include('Navbar.Navbar')
+    @include('Navbar.navbar')
 
     <div class="container mt-4">
         @yield('container')

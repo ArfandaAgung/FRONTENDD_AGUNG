@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-brown">
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
     <div class="container">
         <a class="navbar-brand fw-bold" href="/dashboard/home">Arfanda Gallery</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,7 +29,7 @@
                                 <form action="/logout" method="POST">
                                     @csrf
                                     <button type="submit" class="dropdown-item"><i class="bi bi-box-arrow-right"></i>
-                                        Log-Out</button>
+                                        Keluar</button>
                                 </form>
                             </li>
                         </ul>

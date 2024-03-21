@@ -1,7 +1,7 @@
 @extends('Template.Main')
 
 @section('container')
-    <h1 class="text-center mb-4">Form Create</h1>
+    <h1 class="text-center mb-4">Form Edit</h1>
 
 
     <link rel="stylesheet" href="{{ '/' }}css/create.css">
@@ -67,7 +67,22 @@
                             @enderror
                         </div>
 
-                        <button class="btn btn-brown w-100 py-2 fw-semibold mt-3" type="submit">Create</button>
+                        <div class="form-floating">
+                            <input type="date"
+                                class="form-control @error('tglUnggah')
+                                is-invalid
+                                @enderror"
+                                id="tglUnggah" name="tglUnggah" placeholder="tglUnggah"
+                                value="{{ old('tglUnggah', $photo->tglUnggah) }}">
+                                <label for="tglUnggah"></label>
+                                @error('tglUnggah')
+                                <div class="invalid-feedback">
+                                    {{ $message }}
+                                </div>
+                                @enderror
+                        </div>
+
+                        <button class="btn btn-brown w-100 py-2 fw-semibold mt-3" type="submit">Edit</button>
 
                     </form>
                 </main>

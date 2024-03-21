@@ -3,7 +3,7 @@
 @section('container')
     <link rel="stylesheet" href="{{ '/' }}css/dashboardHome.css">
 
-    <h1 class="text-hero">Welcome To Project
+    <h1 class="text-hero">Welcome To Web Galery
     </h1>
 
     <a href="/dashboard/photos" class="text-decoration-none">

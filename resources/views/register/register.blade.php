@@ -30,6 +30,10 @@
       <label for="username">Username</label>
     </div>
     <div class="form-floating">
+      <input type="text" class="form-control" id="namalengkap" name="namalengkap" placeholder="NamaLengkap">
+      <label for="namalengkap">Nama Lengkap</label>
+    </div>
+    <div class="form-floating">
       <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Alamat">
       <label for="alamat">Alamat</label>
     </div>
@@ -42,8 +46,8 @@
       <label for="password">Password</label>
     </div>
     <button class="btn btn-primary w-100 py-2 mb-4" type="submit">Sign in</button>
-    <p class="text-white">already have account?<a href="/login" class="text-blue"> click here.</a></p>
-    <p class="mt-3 mb-3 text-white">&copy; Yao 2024</p>
+    <p class="text-white">Sudah mempunyai akun?<a href="/login" class="text-blue"> klik disini.</a></p>
+    <p class="mt-3 mb-3 text-white">&copy; Agung 2024</p>
   </form>
 </main>
 
